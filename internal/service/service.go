@@ -30,7 +30,7 @@ func RegisterUser(user users.User) string{
 		return "User already exists"
 	}
 
-	repository.CreateUser(user) //We need to mock this too, for the reasons mentioned before
+	repository.AccessRepo.CreateUser(user) //We need to mock this too, for the reasons mentioned before
 
 	return user.Id
 }

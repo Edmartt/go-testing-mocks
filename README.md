@@ -9,6 +9,8 @@ with our own logic according to the data we expect from those services.
 
 ### Running Project
 
+1.
+
 ```
 go mod download
 ```
@@ -19,6 +21,7 @@ or
 go mod tidy
 ```
 
+2.
 
 ```
 go run main.go
